@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/icon/logoStikom.png" type="image/x-icon" />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Jonsuh -->
+    <link rel="stylesheet" href="../src/dist/css/hamburgers.css" />
+
+    <!-- Animate Style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../src/dist/css/output.css" />
+    <title>Project | UAS</title>
+  </head>
+  <body id="home" class="overflow-x-hidden">
+    <!-- Navbar -->
+    <div class="navbar px-4 py-3">
+      <div class="container mx-auto">
+        <div class="navbar-box flex items-center justify-between">
+          <div class="logo flex items-center gap-x-2">
+            <img src="assets/image/pulosari.jpg" alt="Logo pulosari" class="md:w-16 w-12" />
+            <h1 class="font-bold md:text-2xl text-xl">Wisata Pulosari.</h1>
+          </div>
+          <ul class="menu flex gap-x-7 items-center font-bold md:static absolute z-10 top-24 left-0 md:flex-row flex-col md:bg-transparent bg-teal-600 md:w-auto w-full">
+            <li class="py-4 w-full text-center"><a href="#home" class="hover:text-teal-500">Home</a></li>
+            <li class="py-4 w-full text-center"><a href="#about" class="hover:text-teal-500">About</a></li>
+            <li class="py-4 w-full text-center"><a href="#aturan" class="hover:text-teal-500">Peraturan</a></li>
+            <li class="py-4 w-full text-center"><a href="#dokumentasi" class="hover:text-teal-500">Dokumentasi</a></li>
+            <li class="py-4 w-full text-center"><a href="#registration" class="hover:text-teal-500">Registrasi</a></li>
+            <li class="py-4 w-full text-center"><a href="#map" class="hover:text-teal-500">Location</a></li>
+            <div class="opacity-50 md:block hidden">|</div>
+            <a href="https://github.com/CepiMila" target="_blank" class="fa-brands fa-github text-2xl md:block hidden cursor-pointer hover:text-teal-500"></a>
+          </ul>
+          <div class="md:hidden block">
+            <button class="hamburger hamburger--elastic" type="button">
+              <span class="hamburger-box">
+                <span class="hamburger-inner bg-teal-600 before:bg-teal-600 after:bg-teal-600"></span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar -->
+
+    <!-- Header -->
+    <div class="header min-h-screen flex items-center bg-cover bg-center" style="background-image: url('assets/image/gunung2.jpg'); background-size: cover; background-position: center center;">
+      <div class="container mx-auto px-2">
+        <div class="header-box flex lg:flex-row flex-col items-center gap-10">
+          <div class="box lg:w-1/2 lg:order-1 order-2 lg:text-left text-center">
+            <h1 class="font-extrabold md:text-4xl sm:text-3xl text-2xl text-white mb-4 animate__animated animate__fadeInUp animate__delay-1s" style="text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);">
+              Penghijauan, Menciptakan Generasi Yang Cerah Di Masa Mendatang.
+            </h1>
+            <p class="mb-4 text-white md:text-base sm:text-sm text-xs animate__animated animate__fadeInUp animate__delay-1s" style="text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);">
+              Dengan menjaga kelestarian alam, kita tidak hanya melindungi lingkungan tetapi juga mempersiapkan warisan berharga untuk generasi mendatang. Bersama-sama, kita bisa menciptakan masa depan yang hijau dan sejahtera.
+            </p>
+            <button class="w-48 h-12 bg-teal-500 rounded font-bold text-white hover:bg-teal-600 animate__animated animate__fadeInUp animate__delay-1s">Tentang Kami <i class="fa-solid fa-question ml-2"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header -->
+  
+    <!-- About -->
+    <div class="about py-32" id="about" style="background: linear-gradient(to right, #d1d5db, #4f8764, #305c4a);" >
+      <div class="container mx-auto px-4">
+        <div class="about-box" >
+          <div class="box text-center">
+            <h1 class="font-extrabold text-4xl mb-6 text-white" data-aos="fade-up" data-aos-duration="1000">About Us</h1>
+            <p class="lg:w-3/4 w-full mx-auto md:text-base mb-4 text-white" 
+            style="text-align: justify; font-style: italic;" 
+            data-aos="fade-up" 
+            data-aos-duration="1000" 
+            data-aos-delay="200">
+            Gunung Pulosari adalah destinasi wisata alam di Banten yang terkenal dengan keindahan dan suasana asrinya. Dengan ketinggian sekitar 1.346 meter, gunung ini menawarkan pengalaman mendaki yang seru, pemandangan hutan tropis, serta kawah aktif di puncaknya. Di kaki gunung, terdapat Curug Putri, air terjun indah yang cocok untuk bersantai. Cocok untuk pendaki pemula maupun berpengalaman, Gunung Pulosari menjadi tempat ideal untuk menikmati alam dan melepas penat.
+         </p>
+         <p class="lg:w-3/4 w-full mx-auto md:text-base mb-4 text-white" 
+            style="text-align: justify; font-style: italic;"  
+            data-aos="fade-up" 
+            data-aos-duration="1000" 
+            data-aos-delay="200">
+            Gunung Pulosari juga memiliki daya tarik sejarah dan budaya. Kawasan ini dipercaya sebagai salah satu lokasi peninggalan Kerajaan Banten, dengan situs bersejarah seperti punden berundak yang sering dikunjungi peziarah. Selain itu, kawah aktif di puncak gunung menjadi saksi aktivitas vulkanik yang masih berlangsung, memberikan pengalaman unik bagi para pendaki. Di sepanjang jalur pendakian, Anda akan menemukan berbagai flora dan fauna khas hutan tropis yang menambah keindahan dan kekayaan ekosistemnya. Tidak hanya mendaki, banyak pengunjung yang datang untuk menikmati kesejukan dan keheningan alam yang jarang ditemukan di tempat lain.
+          </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    <!-- About -->
+
+    <!-- aturan -->
+    <div class="aturan py-28" id="aturan" style="background: linear-gradient(to right, #d1d5db, #4f8764, #305c4a);">
+      <div class="container mx-auto px-4">
+        <div class="aturan-box">
+          <div class="box text-center">
+            <h1 class="font-extrabold text-4xl mb-6 text-white" data-aos="fade-up" data-aos-duration="1000">Peraturan Pendakian</h1>
+            <p class="md:w-3/4 w-full mx-auto md:text-base sm:text-sm text-xs text-white" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+              Berikut adalah peraturan pendakian gunung pulosari yang wajib di patuhi.
+            </p>
+          </div>
+          <div class="box grid md:grid-cols-2 grid-cols-1 gap-8 pt-16 items-center">
+            <img src="assets/image/alam.png" alt="" class="w-[450px] md:justify-self-end justify-self-center" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400" />
+            <div class="desc md:justify-self-start justify-self-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
+              <p class="flex items-center gap-4 text-xl font-bold mb-6 text-white"><i class="fa-solid fa-circle-xmark text-4xl text-white"></i> Dilarang Merusak Ekosistem</p>
+              <p class="flex items-center gap-4 text-xl font-bold mb-6 text-white"><i class="fa-solid fa-circle-xmark text-4xl text-white"></i> Hindari Memberi Makan Hewan Liar</p>
+              <p class="flex items-center gap-4 text-xl font-bold mb-6 text-white"><i class="fa-solid fa-circle-xmark text-4xl text-white"></i> Hindari Penggunaan Api Berlebihan</p>
+              <p class="flex items-center gap-4 text-xl font-bold mb-6 text-white"><i class="fa-solid fa-circle-xmark text-4xl text-white"></i> Dilarang Mengambil Apapun Dari Alam</p>
+            </div>
+          </div>
+          <div class="box grid md:grid-cols-2 grid-cols-1 gap-8 pt-16 items-center">
+            <img src="assets/image/tenda (2).png" alt="" class="w-[450px] md:justify-self-end justify-self-center" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400" />
+            <div class="desc md:justify-self-start justify-self-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
+              <p class="flex items-center gap-4 text-xl font-bold mb-6 text-white"><i class="fa-solid fa-circle-check text-4xl text-white"></i> Pilih Lokasi yang Sesuai</p>
+              <p class="flex items-center gap-4 text-xl font-bold mb-6 text-white"><i class="fa-solid fa-circle-xmark text-4xl text-white"></i> Hindari Area yang Rentan Banjir atau Longsor</p>
+              <p class="flex items-center gap-4 text-xl font-bold mb-6 text-white"><i class="fa-solid fa-circle-xmark text-4xl text-white"></i> Dilarang Mendirikan Tenda Di Jalur Hewan</p>
+              <p class="flex items-center gap-4 text-xl font-bold mb-6 text-white"><i class="fa-solid fa-circle-xmark text-4xl text-white"></i> Dilarang Mendirikan Tenda Dibawah Pohon Besar</p>
+            </div>
+          </div>
+          <div class="box grid md:grid-cols-2 grid-cols-1 gap-8 pt-16 items-center">
+            <img src="assets/image/jalur.png" alt="" class="w-[450px] md:justify-self-end justify-self-center" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400" />
+            <div class="desc md:justify-self-start justify-self-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
+              <p class="flex items-center gap-4 text-xl font-bold mb-6 text-white"><i class="fa-solid fa-circle-check text-4xl text-white"></i> Gunakan Jalur Resmi</p>
+              <p class="flex items-center gap-4 text-xl font-bold mb-6 text-white"><i class="fa-solid fa-circle-check text-4xl text-white"></i> Hindari Keluar dari Jalur</p>
+              <p class="flex items-center gap-4 text-xl font-bold mb-6 text-white"><i class="fa-solid fa-circle-check text-4xl text-white"></i> Hormati Rambu dan Petunjuk</p>
+              <p class="flex items-center gap-4 text-xl font-bold mb-6 text-white"><i class="fa-solid fa-circle-check text-4xl text-white"></i> Berjalan dengan Hati-Hati</p>
+            </div>
+          </div>
+          <div class="box grid md:grid-cols-2 grid-cols-1 gap-8 pt-16 items-center">
+            <img src="assets/image/sampah.png" alt="" class="w-[450px] md:justify-self-end justify-self-center" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400" />
+            <div class="desc md:justify-self-start justify-self-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
+              <p class="flex items-center gap-4 text-xl font-bold mb-6 text-white"><i class="fa-solid fa-circle-check text-4xl text-white"></i> Bawa Pulang Sampah Anda</p>
+              <p class="flex items-center gap-4 text-xl font-bold mb-6 text-white"><i class="fa-solid fa-circle-check text-4xl text-white"></i> Bersihkan Area Perkemahan Sebelum meninggalkan area perkemahan</p>
+              <p class="flex items-center gap-4 text-xl font-bold mb-6 text-white"><i class="fa-solid fa-circle-check text-4xl text-white"></i> Dilarang Membuang Sampang Sembarangan</p>
+              <p class="flex items-center gap-4 text-xl font-bold mb-6 text-white"><i class="fa-solid fa-circle-check text-4xl text-white"></i> Dilarang Menggunakan Tisu Basah Dan Membuangnya</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- aturan -->
+
+    <!-- Projects -->
+    <div class="dokumentasi py-32" id="dokumentasi">
+      <div class="container mx-auto px-4">
+        <div class="dokumentasi-box">
+          <div class="box text-center">
+            <h1 class="font-extrabold text-4xl mb-6" data-aos="fade-up" data-aos-duration="1000">Dokumentasi Pendaki</h1>
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Indah untuk di pandang.</p>
+          </div>
+          <div class="box flex items-center justify-center gap-4 flex-wrap pt-12">
+            <div class="p-16 bg-teal-100 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+              <h1 class="text-4xl font-bold mb-2">10000+</h1>
+              <p>Orang Mendaki</p>
+            </div>
+            <div class="p-16 bg-teal-500 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+              <h1 class="text-4xl font-bold mb-2">200+</h1>
+              <p>Pencinta Alam Bekerjasama</p>
+            </div>
+            <div class="p-16 bg-teal-100 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+              <h1 class="text-4xl font-bold mb-2">10000+</h1>
+              <p>Pendakian Terselesaikan</p>
+            </div>
+          </div>
+          <div class="box flex justify-center items-center flex-wrap gap-4 pt-16">
+            <img src="assets/image/dok1.jpg" alt="" class="w-[300px] h-[250px]" style="border-radius: 10px;" />
+            <img src="assets/image/dok2.jpg" alt="" class="w-[300px] h-[250px]" style="border-radius: 10px;" />
+            <img src="assets/image/dok3.jpg" alt="" class="w-[300px] h-[250px]"style="border-radius: 10px;" />
+            <img src="assets/image/dok4.jpg" alt="" class="w-[300px] h-[250px]"style="border-radius: 10px;" />
+          </div>          
+        </div>
+      </div>
+    </div>
+    <!-- Projects -->
+
+   <!-- Registration -->
+<div class="registration py-32" id="registration">
+  <div class="container mx-auto px-4">
+    <div class="registration-box">
+      <div class="box text-center">
+        <h1 class="font-extrabold text-4xl mb-6" data-aos="fade-up" data-aos-duration="1000">Registrasi Pendakian</h1>
+        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Isi formulir di bawah ini untuk mendaftar sebagai peserta pendakian gunung.</p>
+      </div>
+      <form action="https://formspree.io/f/mwpkvljk" method="post" class="mt-10">
+        <table class="mx-auto lg:w-3/5 w-3/4">
+          <!-- Name -->
+          <tr>
+            <td><input type="text" name="Nama Lengkap" placeholder="Nama Lengkap..." autocomplete="off" required class="w-full h-12 rounded-md border p-3" /></td>
+          </tr>
+          <!-- Email -->
+          <tr>
+            <td><input type="email" name="Email" placeholder="Email Anda..." autocomplete="off" required class="w-full h-12 rounded-md border p-3" /></td>
+          </tr>
+          <!-- Phone Number -->
+          <tr>
+            <td><input type="text" name="Nomor Telepon" placeholder="Nomor Telepon..." autocomplete="off" required class="w-full h-12 rounded-md border p-3" /></td>
+          </tr>
+          <!-- Address -->
+          <tr>
+            <td><textarea name="Alamat" placeholder="Alamat Anda..." autocomplete="off" required class="w-full rounded-md border p-3" rows="3"></textarea></td>
+          </tr>
+          <!-- Gender Selection -->
+          <tr>
+            <td>
+              <label class="mr-6">
+                <input type="radio" name="Gender" value="Pria" required /> Pria
+              </label>
+              <label>
+                <input type="radio" name="Gender" value="Wanita" required /> Wanita
+              </label>
+            </td>
+          </tr>
+          <!-- Message / Preparations -->
+          <tr>
+            <td><textarea name="Pesan" id="" cols="30" rows="10" placeholder="Pesan / Persiapan Pendakian..." autocomplete="off" required class="w-full rounded-md border p-3"></textarea></td>
+          </tr>
+          <!-- Submit Button -->
+          <tr>
+            <td><button type="submit" class="w-40 h-10 bg-teal-500 ml-auto block font-bold rounded hover:bg-teal-600">Registrasi Sekarang</button></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- Registration -->
+
+
+    <!-- map -->
+<div class="map py-32" id="map">
+  <div class="container mx-auto px-4">
+    <div class="map-box">
+      <div class="box text-center">
+        <h1 class="font-extrabold text-4xl mb-6" data-aos="fade-up" data-aos-duration="1000">Location</h1>
+        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+          Berikut lokasi wisata Pulosari. Datang dan nikmati keindahan alam kami!
+        </p>
+      </div>
+      <div class="map-frame mt-10">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22433.02245841601!2d105.9605292200362!3d-6.311512813019305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e422faa53e824b9%3A0xb8f5a56b31e59c1d!2sSisi%20Sungai%20Eat%20and%20Nature!5e0!3m2!1sid!2sid!4v1735108992353!5m2!1sid!2sid"
+          width="100%" 
+          height="450" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"
+          class="rounded-md border"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- map -->
+     
+    <!-- Footer -->
+    <div class="footer py-32 text-white" style="background-color: darkslategray;">
+      <div class="container mx-auto px-8">
+        <div class="footer-box flex justify-around lg:flex-row flex-col lg:gap-0 gap-10">
+          
+          <!-- Logo Perusahaan dan Media Sosial -->
+          <div class="box lg:w-[500px]">
+            <div class="logo flex items-center gap-4">
+              <img src="assets/image/pulosari.jpg" alt="Logo Pulosari" class="w-16" />
+              <h1 class="font-bold text-2xl">Wisata Pulosari.</h1>
+              
+              <!-- Media Sosial -->
+              <div class="social-icons flex items-center gap-4 ms-8">
+                <!-- Facebook -->
+                <a href="https://facebook.com" target="_blank" class="text-white hover:text-blue-600">
+                  <i class="fab fa-facebook-f w-6 h-6"></i>
+                </a>
+                <!-- Twitter -->
+                <a href="https://twitter.com" target="_blank" class="text-white hover:text-blue-400">
+                  <i class="fab fa-twitter w-6 h-6"></i>
+                </a>
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/gunungpulosariofficial/" target="_blank" class="text-white hover:text-pink-500">
+                  <i class="fab fa-instagram w-6 h-6"></i>
+                </a>
+                <!-- YouTube -->
+                <a href="https://youtube.com" target="_blank" class="text-white hover:text-red-600">
+                  <i class="fab fa-youtube w-6 h-6"></i>
+                </a>
+              </div>
+            </div>
+            <div class="desc"; style="text-align: justify; font-style: italic;">
+              <p class="opacity-50 text-base leading-loose">Wisata Pulosari menawarkan pengalaman alam terbaik yang dipadukan dengan keindahan tradisional. Nikmati pesona Gunung Pulosari dan beragam kegiatan menarik di sekitarnya.</p>
+            </div>
+          </div>
+    
+          <!-- Menu -->
+          <div class="box flex flex-col lg:w-[100px] gap-2">
+            <h4 class="font-bold text-lg">Menu</h4>
+            <a href="#home" class="opacity-50 hover:opacity-100">Home</a>
+            <a href="#about" class="opacity-50 hover:opacity-100">About</a>
+            <a href="#aturan" class="opacity-50 hover:opacity-100">Peraturan</a>
+            <a href="#dokumentasi" class="opacity-50 hover:opacity-100">Dokumentasi</a>
+            <a href="#registration" class="opacity-50 hover:opacity-100">Registrasi</a>
+            <a href="#map" class="opacity-50 hover:opacity-100">Location</a>
+          </div>
+    
+          <!-- Company -->
+          <div class="box flex flex-col lg:w-[200px] gap-2">
+            <h4 class="font-bold text-lg">Company</h4>
+            <a href="#" class="opacity-50 hover:opacity-100">Terms Of Services</a>
+            <a href="#" class="opacity-50 hover:opacity-100">Privacy Policy</a>
+            <a href="#" class="opacity-50 hover:opacity-100">Blog</a>
+            <a href="#" class="opacity-50 hover:opacity-100">Cookies Setting</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Footer -->
+
+    <!-- Button Bact To Top -->
+    <a href="#home">
+      <i class="fa-solid fa-circle-arrow-up fixed bottom-10 right-10 text-5xl text-teal-500 cursor-pointer hover:text-teal-600 z-20 hidden" title="Kembali Ke Atas"></i>
+    </a>
+    <!-- Button Bact To Top -->
+
+    <!-- JS -->
+    <script src="../src/dist/js/script.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
